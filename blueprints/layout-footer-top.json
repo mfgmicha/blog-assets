@@ -11,7 +11,7 @@
   "steps": [
     {
       "step": "wp-cli",
-      "command": "wp post create --post_slug='page-short-text' --post_type=page --post_status=publish --post_title='Page with short text' --post_content='<!-- wp:paragraph --><p>Just a short text.</p><!-- /wp:paragraph -->'"
+      "command": "wp post create --post_name='page-short-text' --post_type=page --post_status=publish --post_title='Page with short text' --post_content='<!-- wp:paragraph --><p>Just a short text.</p><!-- /wp:paragraph -->'"
     }
   ]
 }
