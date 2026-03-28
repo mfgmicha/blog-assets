@@ -12,6 +12,13 @@
     {
       "step": "wp-cli",
       "command": "wp post create --post_name='page-short-text' --post_type=page --post_status=publish --post_title='Page with short text' --post_content='<!-- wp:paragraph --><p>Just a short text.</p><!-- /wp:paragraph -->'"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentythree"
+      }
     }
   ]
 }
